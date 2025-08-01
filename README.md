@@ -61,6 +61,8 @@ The project workflow is divided into two main parts: preprocessing and training.
 │   └── final_sample.csv         # Preprocessed, sampled dataset
 ├── model/
 │   └── model.joblib             # Saved trained model
+├── analysis.py                  # python script to understand uplift modelling better(getting the number of users
+                                 # who have more than 5% increment in conversion rate if provided with treatment)
 ├── preprocessing.ipynb          # Jupyter notebook for data preprocessing
 └── training.ipynb               # Jupyter notebook for model training and evaluation
 ```
