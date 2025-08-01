@@ -55,7 +55,7 @@ The project workflow is divided into two main parts: preprocessing and training.
 ---
 
 ## File Structure
-
+```
 ├── dataset/
 │   ├── criteo-uplift-v2.1.csv   # Original dataset (must be downloaded)
 │   └── final_sample.csv         # Preprocessed, sampled dataset
@@ -63,5 +63,6 @@ The project workflow is divided into two main parts: preprocessing and training.
 │   └── model.joblib             # Saved trained model
 ├── preprocessing.ipynb          # Jupyter notebook for data preprocessing
 └── training.ipynb               # Jupyter notebook for model training and evaluation
+```
 
 ---
